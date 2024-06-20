@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 2em;
+}
+
+#modals{
+    display: inline-flex;
+}
+.modal{
+    width: 700px;
+    height: 400px;
+    border-radius: 35px;
+    margin-top: calc((100vh - 400px)/2);
+    margin-bottom: calc((100vh - 400px)/2);
+    transition: all 1s;
+}
+.modalTwo{
+    background-color: #004845;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.modalOne{
+    background-color: #c7d7d6;
+}
+
+.marginOne{
+    margin-left: 300px;
+}
+.marginTwo{
+    margin-left: -500px;
+}
+
+.btn{
+    position: inherit;
+    margin-top: 5px;
+    margin-left: 15px;
+}
